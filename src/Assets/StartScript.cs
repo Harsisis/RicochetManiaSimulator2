@@ -19,6 +19,7 @@ public class StartScript : MonoBehaviour
     GameObject BtnBlack;
     GameObject BtnWhite;
     GameObject BtnSend;
+    GameObject BtnQuit;
 
     void Start()
     {
@@ -45,6 +46,8 @@ public class StartScript : MonoBehaviour
         BtnWhite.SetActive(false);
         BtnSend = GameObject.Find("BtnSend");
         BtnSend.SetActive(false);
+        BtnQuit = GameObject.Find("BtnQuit");
+        BtnQuit.SetActive(false);
 
         sphere.SetActive(false);
 
