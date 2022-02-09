@@ -21,6 +21,10 @@ public class StartScript : MonoBehaviour
     GameObject BtnSend;
     GameObject BtnQuit;
 
+    GameObject SliderScaleX;
+    GameObject SliderScaleY;
+    GameObject SliderScaleZ;
+
     void Start()
     {
         BtnStart = GameObject.Find("BtnStart").GetComponent<Button>();
@@ -49,6 +53,13 @@ public class StartScript : MonoBehaviour
         BtnQuit = GameObject.Find("BtnQuit");
         BtnQuit.SetActive(false);
 
+        SliderScaleX = GameObject.Find("SliderScaleX");
+        SliderScaleX.SetActive(false);
+        SliderScaleY = GameObject.Find("SliderScaleY"); 
+        SliderScaleY.SetActive(false);
+        SliderScaleZ = GameObject.Find("SliderScaleZ"); 
+        SliderScaleZ.SetActive(false);
+
         sphere.SetActive(false);
 
     }
@@ -60,7 +71,6 @@ public class StartScript : MonoBehaviour
 
     void SwitchGameScene()
     {
-        Debug.Log("switch scene sphere is : " + sphere);
 
         // hide main menu
         GameObject.Find("BtnClose").SetActive(false);
@@ -74,6 +84,10 @@ public class StartScript : MonoBehaviour
         BtnBlack.SetActive(true);
         BtnWhite.SetActive(true);
         BtnSend.SetActive(true);
+
+        SliderScaleX.SetActive(true);
+        SliderScaleY.SetActive(true);
+        SliderScaleZ.SetActive(true);
 
         sphere.SetActive(true);
 

@@ -15,8 +15,8 @@ public class CloseScript : MonoBehaviour
         BtnClose = GameObject.Find("BtnClose").GetComponent<Button>();
         BtnClose.onClick.AddListener(ExitFunct);
 
-        BtnQuit = GameObject.Find("BtnQuit").GetComponent<Button>();
-        BtnQuit.onClick.AddListener(ExitFunct);
+        //BtnQuit = GameObject.Find("BtnQuit").GetComponent<Button>();
+        //BtnQuit.onClick.AddListener(ExitFunct);
     }
 
     // Update is called once per frame
