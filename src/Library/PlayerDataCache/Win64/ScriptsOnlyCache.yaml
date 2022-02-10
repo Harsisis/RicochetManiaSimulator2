@@ -2,11 +2,14 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CloseScript
+    - GetGaletScript
     - RotateRock
     - RotateTitle
     - StartScript
     - TMPro.Examples.VertexColorCycler
+    - ThrowScript
     - changeGaletColor
+    - changeGaletSize
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -51,6 +54,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 89
@@ -86,19 +91,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3124}
     - Class: 114
-      Script: {instanceID: 3564}
+      Script: {instanceID: 3366}
     - Class: 114
-      Script: {instanceID: 3654}
+      Script: {instanceID: 3566}
     - Class: 114
-      Script: {instanceID: 3672}
+      Script: {instanceID: 3656}
     - Class: 114
-      Script: {instanceID: 3918}
+      Script: {instanceID: 3674}
     - Class: 114
-      Script: {instanceID: 3928}
+      Script: {instanceID: 3920}
     - Class: 114
-      Script: {instanceID: 3972}
+      Script: {instanceID: 3930}
     - Class: 114
-      Script: {instanceID: 4312}
+      Script: {instanceID: 3974}
+    - Class: 114
+      Script: {instanceID: 4314}
+    - Class: 114
+      Script: {instanceID: 28392}
+    - Class: 114
+      Script: {instanceID: 30508}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -558,6 +569,12 @@ ScriptsOnlyBuild:
     className: ActivationTrack
   - hash:
       serializedVersion: 2
+      Hash: fad9a6e293977c542756add5b2676a9c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: changeGaletSize
+  - hash:
+      serializedVersion: 2
       Hash: a1ca1237bad0f30ea5ba8f4060929114
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
@@ -768,11 +785,23 @@ ScriptsOnlyBuild:
     className: TMP_TextEventCheck
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 217a73cb87adb832e7f12930eed4f059
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CloseScript
+  - hash:
+      serializedVersion: 2
+      Hash: 75cfa061cb0697de9fc813cc7e3d682d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GetGaletScript
+  - hash:
+      serializedVersion: 2
+      Hash: 0cef31c063af1cc898ef2e061810f7e6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ThrowScript
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/Travail/Unity/3D/RicochetManiaSimulator/RicochetManiaSimulateur2/RicochetManiaSimulator.exe
+  playerPath: D:/Travail/Unity/3D/RicochetManiaSimulator2/RicochetManiaSimulator/RicochetManiaSimulator.exe

@@ -37,7 +37,6 @@ public class changeGaletSize : MonoBehaviour
         float x = SliderScaleX.value * 10f;
         float y = SliderScaleY.value * 10f;
         float z = SliderScaleZ.value * 10f;
-        Debug.Log("{x, y, z} = {" + x + ", " + y + ", " + z + "}");
 
         Galet.transform.localScale = new Vector3(x, y, z);
     }

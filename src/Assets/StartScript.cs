@@ -20,6 +20,7 @@ public class StartScript : MonoBehaviour
     GameObject BtnWhite;
     GameObject BtnSend;
     GameObject BtnQuit;
+    GameObject BtnGetGalet;
 
     GameObject SliderScaleX;
     GameObject SliderScaleY;
@@ -52,6 +53,8 @@ public class StartScript : MonoBehaviour
         BtnSend.SetActive(false);
         BtnQuit = GameObject.Find("BtnQuit");
         BtnQuit.SetActive(false);
+        BtnGetGalet = GameObject.Find("BtnGetGalet");
+        BtnGetGalet.SetActive(false);
 
         SliderScaleX = GameObject.Find("SliderScaleX");
         SliderScaleX.SetActive(false);
@@ -84,12 +87,14 @@ public class StartScript : MonoBehaviour
         BtnBlack.SetActive(true);
         BtnWhite.SetActive(true);
         BtnSend.SetActive(true);
+        BtnQuit.SetActive(true);
 
         SliderScaleX.SetActive(true);
         SliderScaleY.SetActive(true);
         SliderScaleZ.SetActive(true);
 
         sphere.SetActive(true);
+        sphere.GetComponent<Rigidbody>().useGravity = false;
 
 
     }

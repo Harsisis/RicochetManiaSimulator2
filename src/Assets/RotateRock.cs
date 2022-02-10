@@ -6,6 +6,6 @@ public class RotateRock : MonoBehaviour
 {
     void Update()
     {
-        transform.Rotate(0, -1, 0);
+        transform.Rotate(0, -0.5f, 0);
     }
 }
