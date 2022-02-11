@@ -18,5 +18,6 @@ public class CloseScript : MonoBehaviour
     {
         Debug.Log("Button pressed");
         Application.Quit();
+
     }
 }
